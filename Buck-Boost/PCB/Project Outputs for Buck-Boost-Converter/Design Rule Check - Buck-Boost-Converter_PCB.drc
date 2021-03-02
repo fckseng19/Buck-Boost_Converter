@@ -1,0 +1,78 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Public\Documents\Altium\Projects\Buck-Boost-Converter\Buck-Boost-Converter_PCB.PcbDoc
+Date     : 1/3/2021
+Time     : 13:13:43
+
+Processing Rule : Clearance Constraint (Gap=1.524mm) (InLayerClass('GND_Layer') and InPolygon),(InNetClass('HV_Class'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.635mm) (InPoly),(InPoly)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.305mm) (InPolygon),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=3mm) (InLayerClass('PWR Class') and InPolygon),(InNetClass('HV_Class'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=3mm) (InLayerClass('Bottom_Layer') and InPolygon),(InNetClass('HV_Class'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=3mm) (InLayerClass('Top_Layer') and InPolygon),(InNetClass('HV_Class'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=1.5mm) (InPadClass('mh')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.229mm) (Max=2.54mm) (Preferred=0.508mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.254mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Acute Angle Constraint (Minimum=45.000) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=25.4mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.018mm) (InComponentClass('Logo')),(InComponentClass('Logo'))
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (OnCopper and Not InComponentClass('Logo') and not InComponentClass('FiducialMark') and not InRegion(1000,500,4000,800) and not InPoly)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (OnCopper and IsPoly)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (OnCopper and InComponentClass('Mounting Holes'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=63.5mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 0
+Waived Violations : 0
+Time Elapsed        : 00:00:05

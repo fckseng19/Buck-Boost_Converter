@@ -1,0 +1,131 @@
+(ExpressProject "GateDriver"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2020 S004-[03/01/21]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\c3m0280090d.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\gatedriver.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\gatedriver-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\gatedriver-pspicefiles\ucc5320ecd\1.sim"
+        (DisplayName "UCC5320ECD-1")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\gatedriver-pspicefiles\ucc5320ecd\vg.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\gatedriver-pspicefiles\ucc5320ecd\vg.sim"
+        (DisplayName "UCC5320ECD-vg")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\c3m0280090d.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\c3m0280090d.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (UCC21520DW_TRANS
+      (FullPartName "UCC21520DW_TRANS.Normal")
+      (LibraryName "C:\SPB_DATA\CDSSETUP\PSPTILIBDIR\UCC21520DW_TRANS.OLB")
+      (DeviceIndex "0"))
+    (UCC21541
+      (FullPartName "UCC21541.Normal")
+      (LibraryName "C:\SPB_DATA\CDSSETUP\PSPTILIBDIR\UCC21541.OLB")
+      (DeviceIndex "0"))
+    (UCC21530_TRANS
+      (FullPartName "UCC21530_TRANS.Normal")
+      (LibraryName "C:\SPB_DATA\CDSSETUP\PSPTILIBDIR\UCC21530_TRANS.OLB")
+      (DeviceIndex "0"))
+    (C3M0280090D
+      (FullPartName "C3M0280090D.Normal")
+      (LibraryName "C:\USERS\USER\DOCUMENTS\BUCK-BOOST\C3M0280090D.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND_POWER
+      (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (POWER_NMOS_P
+      (FullPartName "POWER_NMOS_P.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICEMODELAPP\POWERMOSFET\HYBRID\SUPPORTFILES\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (UCC5320ECD_TRANS
+      (FullPartName "UCC5320ECD_TRANS.Normal")
+      (LibraryName "C:\SPB_DATA\CDSSETUP\PSPTILIBDIR\UCC5320ECD_TRANS.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICESOURCEAPP\HYBRID\SUPPORTFILES\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "user")
+  (LastUsedLibraryBrowseDirectory "C:\Users\user\Documents\Buck-Boost")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\user\Documents\Proyecto eléctrico\Buck-Boost\Gate Driver  OrCAD_Sim\Buck-Boost\gatedriver.dsn")
+      (Path "Design Resources"
+         "C:\Users\user\Documents\Proyecto eléctrico\Buck-Boost\Gate Driver  OrCAD_Sim\Buck-Boost\gatedriver.dsn"
+         "UCC5320ECD")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 331 0 775"))
+      (Tab 0))))

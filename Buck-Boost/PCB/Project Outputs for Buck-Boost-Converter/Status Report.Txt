@@ -1,0 +1,17 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 16:18:47 On 26/2/2021
+
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Buck-Boost-Converter_PCB.PcbDoc]
+   Generated File[Buck-Boost-Converter_PCB-RoundHoles.TXT]
+   Generated File[Buck-Boost-Converter_PCB-SlotHoles.TXT]
+   Generated File[Buck-Boost-Converter_PCB.LDP]
+   Generated File[Buck-Boost-Converter_PCB.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 16:18:48 On 26/2/2021
